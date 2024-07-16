@@ -1,7 +1,7 @@
 <x-app-layout>
     <x-slot name="header">
         <h2 class="text-xl font-semibold leading-tight text-gray-800 dark:text-gray-200">
-            {{ __('Dashboard') }}
+            {{ __('Contact') }}
         </h2>
 
 
@@ -13,7 +13,6 @@
                 <!-- <div class="p-6 text-gray-900 dark:text-gray-100"> -->
                 <div class="p-6 text-gray-100">
 
-                    <livewire:about lazy />
                     <livewire:contact lazy />
 
                 </div>
